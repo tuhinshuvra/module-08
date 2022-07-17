@@ -1,0 +1,22 @@
+.container {
+
+    background-color: antiquewhite;
+    border: 2px dotted cornflowerblue;
+    height: 500px;
+    display: flex;
+    /* justify-content: center;
+    align-items: center;
+    flex-wrap: wrap */
+    align-items: stretch;
+}
+
+.box {
+    border: 3px dashed rgb(50, 50, 23);
+    width: 100px;
+    /* height: 100px; */
+    font-weight: 700;
+}
+
+#box2 {
+    flex-grow: 1000;
+}
