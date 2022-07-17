@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    /* grid-template-columns: 200px 200px auto 400px; */
+    /* grid-template-columns: 100px repeat(4, 1fr) 100px; */
+    grid-template-columns: 300px 200px 200px;
+    justify-content: space-evenly;
+    justify-items: stretch;
+}
+
+.item {
+    border: 1px solid rebeccapurple;
+    /* font-weight: 700; */
+    font-size: 2em;
+}
